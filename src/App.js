@@ -11,7 +11,7 @@ import {useDispatch,connect} from 'react-redux'
 
 import AddPost from './screens/AddPost'
 import SignIn from './screens/SignIn'
-import SihnUp from './screens/SignUp'
+import SignUp from './screens/SignUp'
 import Home from './screens/Home'
 
 import CustomHeader from './layout/CustomHeader'
@@ -81,7 +81,7 @@ const App =({authState})=>{
                     ):(
                         <>
                         <Stack.Screen name="SignIn" component={SignIn}/>
-                        <Stack.Screen name="SignUp" component={SihnUp}/>
+                        <Stack.Screen name="SignUp" component={SignUp}/>
                         </>
                     )
                 }
